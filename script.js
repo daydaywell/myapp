@@ -2,7 +2,7 @@
 ui.layout(
     <vertical>
         <appbar layout_gravity="center">
-          <toolbar layout_gravity="center" title="高速辅助" bg="#333333"></toolbar>
+          <toolbar layout_gravity="center" title="高速" bg="#333333"></toolbar>
         </appbar>
         <horizontal padding="10 10" gravity="center_vertical" w="*">
           <text layout_weight="1"  w="auto" text="无障碍权限" />
@@ -25,7 +25,7 @@ ui.layout(
           <Switch id="airportFloatySwitch" w="auto"/>
         </horizontal> */}
         <horizontal padding="10 10" gravity="center_vertical" w="*">
-          <text layout_weight="1"  w="auto" text="version: 0.45 (stable)" />
+          <text layout_weight="1"  w="auto" text="version: 0.46 (stable)" />
         </horizontal>
         {/* <horizontal padding="10 10">
           <text >提交间隔时间</text><input id="submitIntervalInput" gravity="center" margin="10 0" w="100"></input><text>秒</text>
